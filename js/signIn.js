@@ -20,7 +20,7 @@ function toHome() {
       localStorage.setItem("index", i);
       console.log();
 
-      location.replace("home.html");
+      location.replace("welcome home.html");
 
       checkUsernameAndPassword.style.cssText = "display : none !important";
     } else {
