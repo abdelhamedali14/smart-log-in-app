@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login</title>
+      <!-- bootstrap file -->
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+      <!-- custom css file -->
+  <link rel="stylesheet" href="css/style.css" />
+   <!-- media query file -->
+  <link rel="stylesheet" href="css/media.css">
+</head>
+
+<body>
+  <div class="container">
+    <div class="w-75 m-auto mt-5 py-5 shadow-lg p-5 login-window">
+      <h2 class="text-center text-info head-caption">Smart Login System</h2>
+      <input id="emialSignIn" type="email" class="form-control my-3 bg-transparent text-white"
+        placeholder="enter your email" />
+      <input id="passwordSignIn" type="password" class="form-control bg-transparent text-white"
+        placeholder="enter youe password" />
+
+      <a id="logInBtn" class="form-control my-4 btn btn-outline-info">
+        log in
+      </a>
+
+      <div id="requiredSignIn" class="text-danger text-center d-none">
+        <span> All inputs is required</span>
+      </div>
+      <div id="checkUsernameAndPassword" class="text-danger text-center my-1 d-none">
+        <span> incorrect email or password</span>
+      </div>
+      <p class="text-center text-white">
+        Don’t have an account?
+        <a href="sign-up.html" class="text-white"> Sign Up</a>
+      </p>
+    </div>
+  </div>
+  <p class="text-center text-white py-4 copy-right ">Copyright © 2022 Designed by abdelhamed ali. All rights reserved</p>
+  <!-- bootstrap.js file -->
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <!-- js file -->
+  <script src="js/main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,18 @@
+
+
+body{
+    background-color: #24353f;
+}
+
+input::placeholder{
+    color: white !important;
+}
+
+.login-window{
+    background-color: #24353f;
+ 
+}
+
+.welcome{
+margin-top: 200px !important;
+}

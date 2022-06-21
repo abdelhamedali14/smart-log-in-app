@@ -1,0 +1,16 @@
+@media screen and (max-width: 500px) {
+  .head-caption {
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+  }
+  .form-control {
+    padding: 5px 10px;
+    font-size: 0.8rem;
+  }
+  .copy-right {
+    font-size: 0.8rem;
+    width: 70%;
+    margin: auto;
+    padding: 0px;
+  }
+}
